@@ -6,6 +6,10 @@ choice = input("1 for Add \n2 for Sub \n3 for Mul \n4 for Div \n\n Enter your ch
 match choice:
     case "1":
         print("Addition = ",no1+no2)
+        a = int(input("Enter your choice :- "))
+        match a:
+            case 1:
+                print("Good Bye")
     case "2":
         print("Subtract = ",no1-no2)
     case "3":
